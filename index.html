@@ -18,4 +18,24 @@
     ctx.fillStyle = 'rgba(0,0,0,0.3)'
     ctx.fillRect(0,0,canvas.width, canvas.height)
   </script>
+  <style>
+    body {
+      margin: 0;
+      height: 0;
+    }
+    .container {
+      height: 100vh;
+      position: relative;
+      text-align: center;
+      background: linear-gradient(45deg,#f33f2b,#9e0bd8);
+    }
+    canvas {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+      border-radius: 3px;
+    }
+  </style>
 </html>
