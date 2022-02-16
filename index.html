@@ -11,4 +11,11 @@
     <canvas id="canvas" width="800px" height="600px"></canvas>
   </div>
 </body>
+  <script>
+    const canvas = document.querySelector('#canvas')
+    const ctx = canvas.getContext('2d')
+
+    ctx.fillStyle = 'rgba(0,0,0,0.3)'
+    ctx.fillRect(0,0,canvas.width, canvas.height)
+  </script>
 </html>
